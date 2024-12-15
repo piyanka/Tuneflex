@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: ''Roboto', 'sans-serif';
 }
 
 body{
-    /* background-color:white;
-    color:white;  */
+    background-color:black; 
+    color: white; 
 }
 
 .left {
     width: 25vw;
+    padding: 10px; 
 }
 
 .right {
@@ -20,4 +26,77 @@ body{
     gap: 15px;
     width: 15px;
     list-style: none;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+    /* padding-top: 7px; */
+    padding: 0px;
+    font-weight: bold;
+
+}
+
+.heading img{
+    width: 15px;
+}
+
+.library{
+    position: relative;
+    min-height: 80vh;
+}
+.footer{
+    display: flex;
+    /* align-items: center; */
+    font-size: 11px;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footer a{
+    color: grey;
+}
+.right{
+    margin: 15px 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.header > *{
+    padding: 1px;
+}
+
+.spotify-playlist{
+    padding: 8px;
+}
+
+.card-container {
+    margin: 10px;;
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+
+.card{
+    width: 196px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
 }

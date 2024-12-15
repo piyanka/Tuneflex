@@ -3,26 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify</title>
+    <title>Document</title>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
   </head>
   <body>
-    <div class="container flex">
-      <div class="left border">
-        <div class="home">
-          <div class="logo"><img src="logo.svg" alt="" /></div>
-          <ul>
-            <li class="flex"><img src="home.svg" alt="home" />Home</li>
-            <li class="flex"><img src="search.svg" alt="search" />Search</li>
-          </ul>
-        </div>
-        <div class="library"></div>
-      </div>
-      <div class="right border"></div>
-    </div>
+    <div class="container flex bg-black">
+      <div class="left  ">
 
-    <!-- <img src="logo.svg" alt=""> -->
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo "><img class="invert"   src="logo.svg" alt="" /></div>
+          
+          <ul>
+            <li class="flex  "><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li class="flex "><img  class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+
+        </div>
+
+        <div class="library bg-grey rounded m-1 p-1">
+          
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="">
+            <span font-size="10px">Your Library</span>
+          </div>
+        
+          <div class="footer">
+            <div ><a href="https://www.spotify.com/in-en/legal/" class="Link" data-encore-id="textLink">Legal</a></div>
+            <div ><a href="https://www.spotify.com/in-en/safetyandprivacy/" class="Link" data-encore-id="textLink">Safety &amp; Privacy Center</a></div>
+            <div ><a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="Link" data-encore-id="textLink">Privacy Policy</a></div>
+            <div ><a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="Link" data-encore-id="textLink">Cookies</a></div>
+            <div ><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="Link" data-encore-id="textLink">About Ads</a></div>
+            <div><a href="https://www.spotify.com/in-en/accessibility/" class="Link" data-encore-id="textLink">Accessibility</a></div>
+            <!-- <div><p data-encore-id="type">© 2024 Spotify AB</p></div> -->
+          </div>
+        
+        </div>
+
+      </div>
+
+      <div class="right bg-grey rounded ">
+        <div class="header">
+          <div class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
+              <path d="M17 4L8.66943 10.0405C6.44352 11.6545 6.44353 12.3455 8.66943 13.9595L17 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
+              <path d="M7 4L15.3306 10.0405C17.5565 11.6545 17.5565 12.3455 15.3306 13.9595L7 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          
+          <div class="buttons">
+            <button>Signup</button>
+            <button>Login</button>
+          </div>
+        </div>
+
+        <div class="spotify-playlist">
+          <h1>Spotify playlists</h1>
+          <div class="card-container">
+
+            <div class="card ">
+              <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="">
+              <h3>Happy Hits!</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+
+            <div class="card ">
+              <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="">
+              <h3>Happy Hits!</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+
+            <div class="card ">
+              <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="">
+              <h3>Happy Hits!</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+
+            <div class="card ">
+              <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="">
+              <h3>Happy Hits!</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+
+            
+
+            
+
+            
+          </div>
+        </div>
+
+    </div>
+    
+    
   </body>
 </html>
